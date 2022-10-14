@@ -1,11 +1,15 @@
 
 p {
     font-size: 24px;
-    * {
     background-color: hsl(342, 66%, 70%);
     font-family: Verdana, DejaVu sans, sans-serif;
 }
 #second {
     color: blue;
     font-size: 36px;
+}
+#third {
+    background-color: hsl(130, 78%, 51%);
+    font-size: 24px;
+    font-weight: bold;
 }
