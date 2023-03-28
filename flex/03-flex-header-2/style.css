@@ -20,10 +20,12 @@ body {
 .container {
   display: flex;
   
+  
 }
 
 .container-second {
   display: flex;
+  align-items: center;
 }
 
 .profile-image {
@@ -53,10 +55,14 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  
+  
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  
   
 }
 
