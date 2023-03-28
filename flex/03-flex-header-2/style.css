@@ -18,10 +18,12 @@ body {
   
 }
 .container {
-  padding: 8px;
-  margin: 8px;
   display: flex;
   
+}
+
+.container-second {
+  display: flex;
 }
 
 .profile-image {
