@@ -13,20 +13,28 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   
   
 }
 .container {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex: 1;
+  padding: 8px;
+  align-items: center;
   
   
 }
 
 .container-second {
   display: flex;
+  justify-content: space-around;
   align-items: center;
 }
+
+
 
 .profile-image {
   background: rebeccapurple;
@@ -41,6 +49,9 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  
+  
+  
 }
 
 button {
@@ -63,7 +74,22 @@ ul {
   list-style-type: none;
   display: flex;
   
-  
+}
+
+.links-one {
+  display: flex;
+  border: 2px solid;
+}
+
+.links-two {
+  display: flex;
+  border: 2px solid;
+}
+
+.links-three {
+  display: flex;
+  border: 2px solid;
+
 }
 
 
