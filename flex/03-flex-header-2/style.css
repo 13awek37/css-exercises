@@ -13,7 +13,6 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  flex-wrap: nowrap;
   justify-content: space-between;
   padding: 8px;
 
@@ -23,16 +22,8 @@ body {
 }
 
 
-.container {
-  display: flex;
-  align-items: center;
-  
-  
-  
-}
-
-.container-second {
-  display: flex;
+.container, .container-second {
+  display: flexbox;
   align-items: center;
   gap: 16px;
 }
@@ -82,7 +73,8 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 16px;
-  padding: 16px;
+  margin: 0;
+  padding: 0;
   
   
   
